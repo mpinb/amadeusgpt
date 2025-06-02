@@ -1,6 +1,6 @@
 #!/bin/bash
 source ~/anaconda3/bin/activate
-conda env create -f amadesuGPT.yml
+conda env create -f amadeusGPT.yml
 conda activate amadeusgpt
 # adjust this line according to your cuda version
 conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
