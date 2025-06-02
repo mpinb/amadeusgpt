@@ -1,6 +1,6 @@
 #!/bin/bash
-source /Users/shaokaiye/miniforge3/bin/activate
-conda env create -f conda/amadesuGPT.yml
+source ~/anaconda3/bin/activate
+conda env create -f amadeusGPT.yml
 conda activate amadeusgpt
 conda install pytorch torchvision cpuonly -c pytorch
 pip install "git+https://github.com/DeepLabCut/DeepLabCut.git@pytorch_dlc#egg=deeplabcut"

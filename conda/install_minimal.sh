@@ -1,7 +1,7 @@
 #!/bin/bash
 # change this to your own miniconda / miniforge path
-source /Users/shaokaiye/miniforge3/bin/activate
-conda env create -f conda/amadesuGPT.yml
+source ~/anaconda3/bin/activate
+conda env create -f amadeusGPT.yml
 conda activate amadeusgpt
 pip install pycocotools
 pip install -e .[streamlit]

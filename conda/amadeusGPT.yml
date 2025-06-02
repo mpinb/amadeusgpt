@@ -1,7 +1,8 @@
 # This environment can be used to install amadeusGPT
 name: amadeusgpt
 channels:
-    - defaults
+    - conda-forge
+    - nodefaults
 dependencies:
     - python==3.10
     - pytables==3.8.0
